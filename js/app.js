@@ -546,6 +546,11 @@ $(document).on('click', '[data-toggle="lightbox"]', function (event) {
   event.preventDefault();
   $(this).ekkoLightbox();
 });
+const product_description = document.querySelector('.product_description');
+
+function product_description_change(description){
+  product_description.textContent = description;
+}
 // image array
 const mensImages = [
   'men-back.jpg',
@@ -571,15 +576,34 @@ let spin_cont = document.querySelector('#spin-container');
 // const womensImgArr = [];
 const womensBtn = document.querySelector('.womens');
 const mensBtn = document.querySelector('.mens');
+const babiesBtn = document.querySelector('.babies');
+const organicBtn = document.querySelector('.organic');
+const agroBtn = document.querySelector('.agro');
 
-womensBtn.addEventListener('click', () => {
-  changeImage(womensImages);
-});
 mensBtn.addEventListener('click', () => {
   changeImage(mensImages);
+  product_description_change('mens detail');
+});
+womensBtn.addEventListener('click', () => {
+  changeImage(womensImages);
+  product_description_change('womens detail');
+});
+babiesBtn.addEventListener('click', () => {
+  changeImage(mensImages);
+  product_description_change('babies detail');
+});
+organicBtn.addEventListener('click', () => {
+  changeImage(mensImages);
+  product_description_change('organic detail');
+});
+agroBtn.addEventListener('click', () => {
+  changeImage(mensImages);
+  product_description_change('agro detail');
 });
 
+
 changeImage(mensImages);
+product_description_change('mens detail');
 
 function changeImage(imageArr) {
   let html = '';
