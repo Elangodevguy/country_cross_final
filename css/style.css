@@ -381,6 +381,7 @@ nav header i {
 .color-btn {
     background: #3A1C71;
     color: white;
+    margin-right: 0.5rem;
 }
 
 .color-btn:hover,

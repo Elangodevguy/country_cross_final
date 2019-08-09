@@ -548,7 +548,7 @@ $(document).on('click', '[data-toggle="lightbox"]', function (event) {
 });
 const product_description = document.querySelector('.product_description');
 
-function product_description_change(description){
+function product_description_change(description) {
   product_description.textContent = description;
 }
 // image array
@@ -566,9 +566,10 @@ const womensImages = [
   'women-hoody.jpg',
   'women-swat.jpg',
 ];
-const babiesImages = [];
-const organicImages = [];
-const agroImages = [];
+const babiesImages = ['baby1.jpg', 'baby2.jpg', 'baby3.jpg', 'baby4.jpg'];
+const organicImages = ['women-hoody.jpg', 'baby2.jpg', 'men-cap.jpg'];
+const platesImages = ['plates1.jpg', 'plates2.jpg'];
+const peppersImages = ['pepper1.jpg', 'pepper2.jpg', 'pepper3.jpg', 'pepper4.jpg'];
 // buttons
 let spin_cont = document.querySelector('#spin-container');
 // console.log('#spin_container');
@@ -578,7 +579,8 @@ const womensBtn = document.querySelector('.womens');
 const mensBtn = document.querySelector('.mens');
 const babiesBtn = document.querySelector('.babies');
 const organicBtn = document.querySelector('.organic');
-const agroBtn = document.querySelector('.agro');
+const plateBtn = document.querySelector('.plate');
+const pepperBtn = document.querySelector('.pepper');
 
 mensBtn.addEventListener('click', () => {
   changeImage(mensImages);
@@ -589,16 +591,20 @@ womensBtn.addEventListener('click', () => {
   product_description_change('womens detail');
 });
 babiesBtn.addEventListener('click', () => {
-  changeImage(mensImages);
+  changeImage(babiesImages);
   product_description_change('babies detail');
 });
 organicBtn.addEventListener('click', () => {
-  changeImage(mensImages);
+  changeImage(organicImages);
   product_description_change('organic detail');
 });
-agroBtn.addEventListener('click', () => {
-  changeImage(mensImages);
-  product_description_change('agro detail');
+plateBtn.addEventListener('click', () => {
+  changeImage(platesImages);
+  product_description_change('plate detail');
+});
+pepperBtn.addEventListener('click', () => {
+  changeImage(peppersImages);
+  product_description_change('pepper detail');
 });
 
 
