@@ -575,7 +575,7 @@ const peppersImages = ['pepper1.jpg', 'pepper2.jpg', 'pepper3.jpg', 'pepper4.jpg
 const mensDesc = `We manufacture 100℅ organic, comfy t-shirts, Polos, hHoody, Sweat shirts and inner wears (vest and brief's) for Men. All of them are long lasting and of top quality`;
 const womensDesc = `Women's clothing are manufactured with utmost care by keeping women's convenience in mind. Women's clothing include T-shirts, Sweat shirts, Hoody and inner wears. All are 100℅ organic cotton clothes`;
 const babiessDesc = `Every baby needs comfortable dresses to be cheerful.So Extra care is taken while manufacturing baby clothings. Organic cotton t-shirts and shorts are available for new borns`;
-const organicDesc = `MensDetail`;
+const organicDesc = `All the products we manufacture are organic and eco friendly and bio-degradable. We make sure it has no chemicals used in it, before it is made deliverable for customers across the world`;
 const platesDesc = `We export different kinds of eco-friendly, light weighted Areca palm plates and bowls with best packing. These are 100℅ bio-degradable, dispensable and home compatible which are microwave/freezer safe. These chemical/bleach/ toxin free plates are leak proof, oil and water resistable hence can be used for hard and liquid foods.`;
 const peppersDesc = `Also we export best quality of Pepper(king of spices) directly from Kolli hills, Tamil Nadu. These 100℅ pesticide free Pepper contains anti-inflammatory, carminative, anti-flatulent properties with high level of Potassium, Calcium, Zinc, Magnesium, Iron and Manganese. 100gms of Pepper contains 250cal which is also a vital source for B-Complex`;
 // buttons
