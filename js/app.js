@@ -570,6 +570,14 @@ const babiesImages = ['baby1.jpg', 'baby2.jpg', 'baby3.jpg', 'baby4.jpg'];
 const organicImages = ['women-hoody.jpg', 'baby2.jpg', 'men-cap.jpg'];
 const platesImages = ['plates1.jpg', 'plates2.jpg'];
 const peppersImages = ['pepper1.jpg', 'pepper2.jpg', 'pepper3.jpg', 'pepper4.jpg'];
+
+// descriptions
+const mensDesc = `MensDetail`;
+const womensDesc = `WomensDetail`;
+const babiessDesc = `MensDetail`;
+const organicDesc = `MensDetail`;
+const platesDesc = `We export different kinds of eco-friendly, light weighted Areca palm plates and bowls with best packing. These are 100℅ bio-degradable, dispensable and home compatible which are microwave/freezer safe. These chemical/bleach/ toxin free plates are leak proof, oil and water resistable hence can be used for hard and liquid foods.`;
+const peppersDesc = `Also we export best quality of Pepper(king of spices) directly from Kolli hills, Tamil Nadu. These 100℅ pesticide free Pepper contains anti-inflammatory, carminative, anti-flatulent properties with high level of Potassium, Calcium, Zinc, Magnesium, Iron and Manganese. 100gms of Pepper contains 250cal which is also a vital source for B-Complex`;
 // buttons
 let spin_cont = document.querySelector('#spin-container');
 // console.log('#spin_container');
@@ -584,32 +592,32 @@ const pepperBtn = document.querySelector('.pepper');
 
 mensBtn.addEventListener('click', () => {
   changeImage(mensImages);
-  product_description_change('mens detail');
+  product_description_change(mensDesc);
 });
 womensBtn.addEventListener('click', () => {
   changeImage(womensImages);
-  product_description_change('womens detail');
+  product_description_change(womensDesc);
 });
 babiesBtn.addEventListener('click', () => {
   changeImage(babiesImages);
-  product_description_change('babies detail');
+  product_description_change(babiessDesc);
 });
 organicBtn.addEventListener('click', () => {
   changeImage(organicImages);
-  product_description_change('organic detail');
+  product_description_change(organicDesc);
 });
 plateBtn.addEventListener('click', () => {
   changeImage(platesImages);
-  product_description_change('plate detail');
+  product_description_change(platesDesc);
 });
 pepperBtn.addEventListener('click', () => {
   changeImage(peppersImages);
-  product_description_change('pepper detail');
+  product_description_change(peppersDesc);
 });
 
 
 changeImage(mensImages);
-product_description_change('mens detail');
+product_description_change(mensDesc);
 
 function changeImage(imageArr) {
   let html = '';
