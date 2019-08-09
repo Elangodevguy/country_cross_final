@@ -272,7 +272,9 @@ nav header i {
     margin: 0;
 }
 
-.fa-truck {
+.fa-truck,
+.fa-smile-beam,
+.fa-dumbbell {
     background: -webkit-linear-gradient(to bottom left, #FFAF7B, #D76D77, #3A1C71);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom left, #FFAF7B, #D76D77, #3A1C71);
