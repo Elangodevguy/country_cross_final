@@ -59,7 +59,7 @@ if (isset($_POST['submit'])) {
 //Set an alternative reply-to address
     // $mail->addReplyTo('replyto@example.com', 'First Last');
     //Set who the message is to be sent to
-    $mail->addAddress($email, $first_name);
+    $mail->addAddress('info@countrycross.in', $first_name);
 //Set the subject line
     $mail->Subject = 'Country cross mail from your website';
     $mail->Body = $content;
@@ -106,13 +106,13 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
 <div class="container text-center mt-5">
-    <h1 class="display-4 text-<?php echo $status;?>"><?php echo $statusMessage; ?></h1>
+    <h1 class="display-4 text-<?php echo $status; ?>"><?php echo $statusMessage; ?></h1>
     <p class="lead">Please wait for some time to redirect to country cross website</p>
 </div>
     <script>
 function myTimeoutFunction()
 {
-    window.location.replace('http://localhost/country_cross');
+    window.location.replace('http://localhost/country_cross_final');
 }
 
 myTimeoutFunction();
