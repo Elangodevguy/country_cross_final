@@ -109,7 +109,7 @@ if (isset($_POST['submit'])) {
     <h1 class="display-4 text-<?php echo $status; ?>"><?php echo $statusMessage; ?></h1>
     <p class="lead">Please wait for some time to redirect to country cross website</p>
 </div>
-    <script>
+    <script defer>
 function myTimeoutFunction()
 {
     window.location.replace('http://localhost/country_cross_final');
