@@ -237,7 +237,7 @@ class GLSLTemplate {
      ------------------------------*/
 const shader = new GLSLTemplate({
   container: document.getElementById("container"),
-  images: ["img/How-to-Buy-Clothes-Wholesale-in-Kenya.jpg", "img/powder.jpg"],
+  images: ["img/ladies.jpg", "img/powder.jpg"],
 });
 
 // Navbar
